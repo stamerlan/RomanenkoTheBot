@@ -3,7 +3,7 @@ import telebot;
 
 bot = telebot.TeleBot('1669576677:AAHC06TJeVvf361EHEEU-em2UcJUHDPGSAs')
 
-@bot.message_handler(regexp='бухать|план б|план|плнб')
+@bot.message_handler(regexp='бухать|план б|план|плнб|пиво|пивас')
 def respond_to_party_invitation(message):
     responses = [
         "не, я в климах",
